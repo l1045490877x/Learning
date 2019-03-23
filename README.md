@@ -23,10 +23,11 @@ _注：Node.js内可直接运行js基础代码（非DOM等相关代码）_
 
 _注：@不能少，少了@安装的不是3.x版本而是1.x、2.x版本，若已经安装了旧版本则需卸载旧版本然后再安装新版本_ 
 
-               旧版本卸载命令 `npm uninstall vue-cli -g `
+**旧版本卸载命令 `npm uninstall vue-cli -g `**
                
-                补充：vue-cli 3.x 卸载命令  `npm uninstall @vue/cli -g`    (如果需要可使用)
-                ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue450.png)
+_补充：vue-cli 3.x 卸载命令  `npm uninstall @vue/cli -g`    (如果需要可使用)_
+
+![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue450.png)
 
                 
 国内下载npm镜像速度比较慢
