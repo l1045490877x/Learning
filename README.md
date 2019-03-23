@@ -10,26 +10,26 @@
 <font color=red>注：Node.js内可直接运行js基础代码（非DOM等相关代码）</font>
 而我们需要使用的是 `Node.js command prompt`
 1.Vue-CLI安装：
-官方命令 ```npm install -g @vue/cli```   
+官方命令 `npm install -g @vue/cli`   
 注：@不能少，少了@安装的不是3.x版本而是1.x、2.x版本，若已经安装了旧版本则需卸载旧版本然后再安装新版本  
-旧版本卸载命令 npm uninstall vue-cli -g   
-补充：vue-cli 3.x 卸载命令  npm uninstall @vue/cli -g    (如果需要可使用)
+旧版本卸载命令 `npm uninstall vue-cli -g ` 
+补充：vue-cli 3.x 卸载命令  `npm uninstall @vue/cli -g`    (如果需要可使用)
 
 国内下载速度比较慢
 查看npm当前下载镜像，命令如下：
-npm get registry 
+`npm get registry `
 结果> https://registry.npmjs.org/
 如果嫌弃下载慢可以切换为淘宝镜像，命令如下：
-npm config set registry http://registry.npm.taobao.org/
+`npm config set registry http://registry.npm.taobao.org/`
 等待安装完毕
 
 2创建项目，但是建议先考虑项目文件夹储存的位置并进入相关位置，以桌面为例
-cd desktop
+`cd desktop`
 如果无需更改位置，请跳过；如果需返回上级目录  cd.. 即可，其他cmd命令可自行百度
 创建项目的两种方式：
 ①直接命令行创建
 创建项目命令： vue create 项目名   自己起个名字即可，但请注意不能有大写字母，否则报错：Warning: name can no longer contain capital letters
-vue create learn  √
+`vue create learn`  √
 接下来会问你选择那种配置（会显示所有保存过的配置，首次使用只会显示 default（babel,eslint） 以及 Manually select features）
 可选自己之前创建过的或选择官方默认配置或者手动选择
 
@@ -50,7 +50,7 @@ Pick a CSS pre-processor(css预处理语言)下 有SCSS/SASS、LASS、Stylus
 等待项目创建...
 
 项目创建好后按提示进入项目，并启动项目
-cd learn 进入后 npm run serve
+cd learn 进入后 `npm run serve`
 
 这两个地址均可访问，第二个地址也并不能对外访问，应该是没做好端口映射，那这个地址用来干嘛的？
 通过GUI创建
@@ -74,19 +74,6 @@ cd learn 进入后 npm run serve
 
 也可命令行启动，命令与之前所述相同
 至此结束
-
-https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue1001.png
-
-        Learning/Vue.files/Vue1001.png
-
-
-
-
-
-
-
-
-
 
 
 
