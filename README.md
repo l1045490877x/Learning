@@ -6,6 +6,7 @@
 ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue137.png)
 一路Next即可，一般无需更改默认安装设置
 安装完毕在开始菜单内即可找到一个名为 Node.js 的文件夹如下图
+<br/>
 ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue196.png)
 <font color=red>注：Node.js内可直接运行js基础代码（非DOM等相关代码）</font>
 而我们需要使用的是 `Node.js command prompt`
