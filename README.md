@@ -31,6 +31,7 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown]().
 
 ### Jekyll Themes
+![Image](Learning/Vue.files/Vue1001.png)
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/l1045490877x/Learning/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
