@@ -8,14 +8,13 @@
 安装完毕在开始菜单内即可找到一个名为 Node.js 的文件夹如下图
 <br/>
 ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue196.png)
-<font color=red>注：Node.js内可直接运行js基础代码（非DOM等相关代码）</font>
+注：Node.js内可直接运行js基础代码（非DOM等相关代码）
 而我们需要使用的是 `Node.js command prompt`
 1.Vue-CLI安装：
 官方命令 `npm install -g @vue/cli`   
 注：@不能少，少了@安装的不是3.x版本而是1.x、2.x版本，若已经安装了旧版本则需卸载旧版本然后再安装新版本  
 旧版本卸载命令 `npm uninstall vue-cli -g ` 
 补充：vue-cli 3.x 卸载命令  `npm uninstall @vue/cli -g`    (如果需要可使用)
-<font color="red">123124</font>
 国内下载速度比较慢
 查看npm当前下载镜像，命令如下：
 `npm get registry `
