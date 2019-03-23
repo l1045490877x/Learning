@@ -87,7 +87,7 @@ Pick a CSS pre-processor(css预处理语言)下 有SCSS/SASS、LASS、Stylus
 
 等待项目创建...
 
-![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue1337png)
+![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue1337.png)
 
 项目创建好后按提示进入项目，并启动项目
 
@@ -137,4 +137,4 @@ _注：有下拉框的得先选择否则不能 下一步_
 
 也可命令行启动，命令与之前所述相同
 
-至此就开启了新的旅途-Vue之旅！
+_至此就开启了新的旅途-Vue之旅！_
