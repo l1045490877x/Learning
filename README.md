@@ -1,16 +1,22 @@
-# Learning Vue-cli3.X创建项目
-知识，工作总结
-## Vue-cli3.X创建项目
+#Vue-cli3.X创建项目
+
 安装Vue-cli3.x的前置条件：Node.js 
+
 以Windows为例安装Node.js,百度 “Node.js官网” 或”Node.js中文网”均可 ,如无特殊要求 下载安装 LTS版（长期支持版，该版本已满足Vue CLI官网所需要求版本要求）
+
 ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue137.png)
+
         一路Next即可，一般无需更改默认安装设置
+        
         安装完毕在开始菜单内即可找到一个名为 Node.js 的文件夹如下图
+        
 <br/>
 ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue196.png)<br>
-        注：Node.js内可直接运行js基础代码（非DOM等相关代码）
+
+ 注：Node.js内可直接运行js基础代码（非DOM等相关代码）
+ 
         而我们需要使用的是 `Node.js command prompt`
-        1.Vue-CLI安装：
+        ##1.Vue-CLI安装：
         官方命令 `npm install -g @vue/cli`   
         注：@不能少，少了@安装的不是3.x版本而是1.x、2.x版本，若已经安装了旧版本则需卸载旧版本然后再安装新版本  
         旧版本卸载命令 `npm uninstall vue-cli -g ` 
