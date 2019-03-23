@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](https://github.com/l1045490877x/Learning/blob/master/Vue.files/Vue1001.png)
+[Link](url) and ![Image](Learning/Vue.files/Vue1001.png)
 ```
 
 For more details see [GitHub Flavored Markdown]().
