@@ -72,12 +72,17 @@ _如果需返回上级目录  cd.. 即可，其他cmd命令可自行百度_
  
 在保存时进行代码检测
 
-                Babel、PostCSS、ESLint等配置文件存放位置，选择单独保存在各自的配置文件中
-                ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue1147.png)
-                Pick a CSS pre-processor(css预处理语言)下 有SCSS/SASS、LASS、Stylus
-                还有TS、PWA、Roter（vue 路由管理；SPA必带）、Vuex（vue状态管理）、测试（Unit Testing、E2E Testing）等等，均可按需选择
-                最后会询问你 是否保存为未来项目的预设配置  如果保存需要输入名称
-                ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue1325.png)
+Babel、PostCSS、ESLint等配置文件存放位置，选择单独保存在各自的配置文件中
+
+![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue1147.png)
+
+Pick a CSS pre-processor(css预处理语言)下 有SCSS/SASS、LASS、Stylus
+
+还有TS、PWA、Roter（vue 路由管理；SPA必带）、Vuex（vue状态管理）、测试（Unit Testing、E2E Testing）等等，均可按需选择
+
+最后会询问你 是否保存为未来项目的预设配置  如果保存需要输入名称
+
+![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue1325.png)
                 
 
 等待项目创建...
