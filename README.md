@@ -4,31 +4,31 @@
 安装Vue-cli3.x的前置条件：Node.js 
 以Windows为例安装Node.js,百度 “Node.js官网” 或”Node.js中文网”均可 ,如无特殊要求 下载安装 LTS版（长期支持版，该版本已满足Vue CLI官网所需要求版本要求）
 ![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue137.png)
-一路Next即可，一般无需更改默认安装设置
-安装完毕在开始菜单内即可找到一个名为 Node.js 的文件夹如下图
+        一路Next即可，一般无需更改默认安装设置
+        安装完毕在开始菜单内即可找到一个名为 Node.js 的文件夹如下图
 <br/>
-![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue196.png)
-注：Node.js内可直接运行js基础代码（非DOM等相关代码）
-而我们需要使用的是 `Node.js command prompt`
-1.Vue-CLI安装：
-官方命令 `npm install -g @vue/cli`   
-注：@不能少，少了@安装的不是3.x版本而是1.x、2.x版本，若已经安装了旧版本则需卸载旧版本然后再安装新版本  
-旧版本卸载命令 `npm uninstall vue-cli -g ` 
-补充：vue-cli 3.x 卸载命令  `npm uninstall @vue/cli -g`    (如果需要可使用)
-国内下载速度比较慢
-查看npm当前下载镜像，命令如下：
-`npm get registry `
-结果> https://registry.npmjs.org/
-如果嫌弃下载慢可以切换为淘宝镜像，命令如下：
-`npm config set registry http://registry.npm.taobao.org/`
-等待安装完毕
+![Image](https://github.com/l1045490877x/Learning/blob/Vue/Vue.files/Vue196.png)<br>
+        注：Node.js内可直接运行js基础代码（非DOM等相关代码）
+        而我们需要使用的是 `Node.js command prompt`
+        1.Vue-CLI安装：
+        官方命令 `npm install -g @vue/cli`   
+        注：@不能少，少了@安装的不是3.x版本而是1.x、2.x版本，若已经安装了旧版本则需卸载旧版本然后再安装新版本  
+        旧版本卸载命令 `npm uninstall vue-cli -g ` 
+        补充：vue-cli 3.x 卸载命令  `npm uninstall @vue/cli -g`    (如果需要可使用)
+        国内下载速度比较慢
+        查看npm当前下载镜像，命令如下：
+        `npm get registry `
+        结果> https://registry.npmjs.org/
+        如果嫌弃下载慢可以切换为淘宝镜像，命令如下：
+        `npm config set registry http://registry.npm.taobao.org/`
+        等待安装完毕
 
-2创建项目，但是建议先考虑项目文件夹储存的位置并进入相关位置，以桌面为例
-`cd desktop`
-如果无需更改位置，请跳过；如果需返回上级目录  cd.. 即可，其他cmd命令可自行百度
-创建项目的两种方式：
-①直接命令行创建
-创建项目命令： vue create 项目名   自己起个名字即可，但请注意不能有大写字母，否则报错：Warning: name can no longer contain capital letters
+        2创建项目，但是建议先考虑项目文件夹储存的位置并进入相关位置，以桌面为例
+        `cd desktop`
+        如果无需更改位置，请跳过；如果需返回上级目录  cd.. 即可，其他cmd命令可自行百度
+        创建项目的两种方式：
+        ①直接命令行创建
+        创建项目命令： vue create 项目名   自己起个名字即可，但请注意不能有大写字母，否则报错：Warning: name can no longer contain capital letters
 `vue create learn`  √
 接下来会问你选择那种配置（会显示所有保存过的配置，首次使用只会显示 default（babel,eslint） 以及 Manually select features）
 可选自己之前创建过的或选择官方默认配置或者手动选择
